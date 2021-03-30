@@ -1,16 +1,214 @@
-### Hi there 👋
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>E-sport</title>
+        <style>
+            *{
+                margin: 0;
+            }
 
-<!--
-**LukasBosy/LukasBosy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+            body{
+                background-color: #200;
+                color: #ffffff;
+            }
 
-Here are some ideas to get you started:
+            .naglowek{
+                
+                padding: 30px;
+                line-height: 50px;
+                
+            
+            }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+            h1{
+                font-size: 70px;
+            }
+
+            .listy ul h3{
+                padding: 20px 0px;
+                font-size: 30px;
+            }
+
+            .listy ol h3{
+                padding: 20px 0px;
+                font-size: 30px;
+            }
+
+            li{
+                line-height: 24px;
+            }
+
+            ul{
+                text-align: lest;
+                width: 500px;
+            }
+
+            ol{
+                text-align: left;
+                width: 500px;
+            }
+
+            img{
+                padding: 10px 80px;
+            }
+
+
+            .obrazek{
+                display: flex;
+                justify-content: center;
+            }
+
+            .listy{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            a{
+                color: #ffffff;
+                text-decoration: none;
+                transition: all .5s ease-in-out;
+                font-size: 30px
+            }
+
+            a:visited{
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: #919191;
+                text-decoration: underline;
+            }
+
+            #podpis{
+                width: 100%;
+                text-align: center;
+            }
+            
+            #statystyki{
+                width: 100%;
+                text-align: center;
+                font-size: 50px;
+                padding-top: 20px;
+            }
+            #link{
+                width: 100%;
+                text-align: center;
+            }
+
+           
+            }
+
+            table, th, td  {
+                border-collapse: collapse;
+                border: 1px solid #fff;
+                padding: 15px;
+            }
+
+           #tabela{
+            display: flex;
+            justify-content: center;
+            margin: 40px 0px;
+           }
+
+           th{
+               font-size: 25px;
+               transition: all .2s ease-in-out;
+           }
+
+           td{
+               font-size: 20px;
+               text-align: center;
+               transition: all .2s ease-in-out;
+           }
+
+           th:hover{
+               background-color: #ffffff;
+               color: #222;
+               cursor: pointer;
+           }
+
+           td:hover{
+               background-color: #ffffff;
+               color: #222;
+               cursor: pointer;
+           }
+            
+            }
+
+            .obrazek_all{
+                display: flex;
+                flex-direction: column;
+                padding-top: 10px;
+                text-align: center;
+            }
+            #siema{
+                text-align: center;
+                width: 100%;
+            }
+
+            #siema p{
+                padding-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="naglowek" id="top">
+
+            <h1>E-sport</h1>
+            <p>
+                
+            </p>
+        </div>
+        <div class="listy">
+            <ul>
+                <h3>Główne gry E-sportowe</h3>
+                <li>Counter-Strike</li>
+                <li>League of Legends</li>
+                <li>Dota 2</li>
+                
+            </ul>
+            <div class="obrazek">
+                <img height="407px"; width="600px"; src="esport.jfif" alt="">
+                
+            </div>
+            <ol><h3>Co to E-sport</h3>
+                <li>E-sport to rywalizacja graczy w danej grze</li>
+				<li>Aktualnie E-sport jest bardzo popularny</li>
+				<li>Turnieje przyciągają tysiące fanów przed monitory</li>
+				<li>Pule nagród w najważniejszych turniejach mogą sięgać ponad 2,5 milionów dolarów</li>
+            </ol>
+        </div> 
+        <div id="podpis">
+           
+        </div>  
+        <div class="obrazek">
+            <div class="obrazek_all">
+               <a href="cs.html"> <img height="270px"; width="300px"; src="csgo.jpg" alt="Kapliczka"></a>
+                <p></p>
+            </div>
+            <div class="obrazek_all">
+                <a href="lol.html"><img height="270px"; width="500px"; src="lol.jpg" alt="kościół"></a>
+                <p></p>
+            </div>
+            <div class="obrazek_all">
+                <a href="dota.html"><img height="256px"; width="350px"; src="dota.jpg" alt="straz"></a>
+                <p></p>
+            </div>
+        </div>
+        
+       
+            </p>
+        </div>
+        <div id="link">
+            <a href=" target="_blank"></a>
+        </div>
+        <div id="statystyki">
+            
+        </div>
+        </div>
+        
+    </body>
+</html>
